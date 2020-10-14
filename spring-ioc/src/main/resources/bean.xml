@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+       类型 变量名 = new 类型
+       bean = 对象 new Hello()
+       id  = 变量名
+       class = new 的对象
+       property 相当于给对象中的属性设置值
+        bean就是java对象 , 由Spring创建和管理
+    -->
+    <bean id="hello" class="com.oldwang.pojo.Hello">
+        <property name="userName" value="张三"></property>
+    </bean>
+
+    <bean id="MysqlImpl" class="com.oldwang.dao.MysqlUserDaoImpl"></bean>
+    <bean id="OracleImpl" class="com.oldwang.dao.OracleUserDaoImpl"></bean>
+
+
+    <bean id="userService" class="com.oldwang.service.UserServiceImpl">
+        <!--注意: 这里的name并不是属性 , 而是set方法后面的那部分 , 首字母小写-->
+        <!--引用另外一个bean , 不是用value 而是用 ref-->
+        <property name="userDao" ref="MysqlImpl"></property> <!--具体使用哪个接口这里可以直接配置-->
+    </bean>
+</beans>
