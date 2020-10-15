@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825fdf8d-fc74-4a06-a043-b460a9a06bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ioc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc/spring-ioc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/dao/MysqlUserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/dao/OracleUserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/pojo/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/ioc/HelloSpringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/ioc/HelloSpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/ioc/HelloSpringTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,48 +17,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+        <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/pojo/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="1107" selection-start-line="1107" selection-end-line="1107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="201" selection-start-line="201" selection-end-line="201" />
+            <state relative-caret-position="60">
+              <caret line="2" selection-start-line="2" selection-end-line="23" />
               <folding>
-                <element signature="e#29379#29380#0" expanded="true" />
-                <element signature="e#29415#29416#0" expanded="true" />
-                <element signature="e#44572#44573#0" expanded="true" />
-                <element signature="e#44643#44644#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/resources/bean.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="1265" selection-start-line="1265" selection-end-line="1265" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="163" selection-start-line="163" selection-end-line="163" />
-              <folding>
-                <element signature="e#7077#7078#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-127">
+              <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -76,40 +48,9 @@
         <entry file="file://$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/ioc/HelloSpringTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13/junit-4.13.jar!/org/junit/runners/model/FrameworkMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="179" selection-start-line="179" selection-end-line="179" />
-              <folding>
-                <element signature="e#3878#3879#0" expanded="true" />
-                <element signature="e#3898#3899#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,6 +82,7 @@
         <option value="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/service/UserService.java" />
         <option value="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-ioc/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/pojo/User.java" />
         <option value="$PROJECT_DIR$/spring-ioc/src/main/resources/bean.xml" />
         <option value="$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/ioc/HelloSpringTest.java" />
       </list>
@@ -165,8 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +165,17 @@
               <item name="spring-ioc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oldwang" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -276,12 +227,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602688147952" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602771021323" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -306,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HelloSpringTest.testHello">
+  <component name="RunManager" selected="JUnit.HelloSpringTest.test">
     <configuration name="HelloSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-ioc" />
       <extension name="coverage">
@@ -388,11 +341,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloSpringTest.test" />
         <item itemvalue="JUnit.HelloSpringTest.testHello" />
         <item itemvalue="JUnit.HelloSpringTest.testHellp" />
         <item itemvalue="JUnit.HelloSpringTest" />
         <item itemvalue="JUnit.HelloSpringTest.testUserDao" />
-        <item itemvalue="JUnit.HelloSpringTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -407,20 +360,20 @@
       <option name="presentableId" value="Default" />
       <updated>1602417774813</updated>
       <workItem from="1602417779506" duration="441000" />
-      <workItem from="1602681056868" duration="6167000" />
+      <workItem from="1602681056868" duration="6235000" />
+      <workItem from="1602769479300" duration="1533000" />
     </task>
+    <task id="LOCAL-00001" summary="spring quickStart">
+      <created>1602688288350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602688288350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloSpringTest_testUserDao - 2020.10.14 at 22h 36m 07s.xml">
-      <configuration name="HelloSpringTest.testUserDao" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloSpringTest_testUserDao - 2020.10.14 at 22h 37m 10s.xml">
-      <configuration name="HelloSpringTest.testUserDao" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloSpringTest - 2020.10.14 at 22h 46m 14s.xml">
-      <configuration name="HelloSpringTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HelloSpringTest_testHellp - 2020.10.14 at 22h 57m 34s.xml">
       <configuration name="HelloSpringTest.testHellp" configurationId="JUnit" />
     </history-entry>
@@ -442,25 +395,33 @@
     <history-entry file="HelloSpringTest_testHello - 2020.10.14 at 23h 10m 34s.xml">
       <configuration name="HelloSpringTest.testHello" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HelloSpringTest_test - 2020.10.15 at 21h 49m 59s.xml">
+      <configuration name="HelloSpringTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloSpringTest_test - 2020.10.15 at 21h 53m 57s.xml">
+      <configuration name="HelloSpringTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloSpringTest_test - 2020.10.15 at 22h 03m 08s.xml">
+      <configuration name="HelloSpringTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6608000" />
+    <option name="totallyTimeSpent" value="8209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17489271" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20118026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295711" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22911964" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32392776" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,6 +431,8 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3295711" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -484,12 +447,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spring quickStart" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring quickStart" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/ioc/HelloSpringTest.java</url>
-          <line>17</line>
+          <line>18</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -504,24 +471,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/service/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/dao/UserDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/service/UserServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="613">
@@ -565,13 +516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/resources/beans.xml" />
     <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -660,13 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="206" column="40" lean-forward="true" selection-start-line="206" selection-start-column="40" selection-end-line="206" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/resources/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="12" column="35" selection-start-line="6" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -768,20 +706,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13/junit-4.13.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="23" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/ioc/HelloSpringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13/junit-4.13.jar!/org/junit/runners/model/FrameworkMethod.class">
+    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/resources/bean.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="-127">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -25,4 +25,21 @@
         <!--引用另外一个bean , 不是用value 而是用 ref-->
         <property name="userDao" ref="MysqlImpl"></property> <!--具体使用哪个接口这里可以直接配置-->
     </bean>
+
+    <!--第一种通过下标赋值-->
+    <bean id="user" class="com.oldwang.pojo.User">
+        <constructor-arg index="0" value="oldwang"></constructor-arg>
+    </bean>
+
+    <!-- 第二种根据参数名字设置 -->
+    <bean id="user1" class="com.oldwang.pojo.User">
+        <!-- name指参数名 -->
+        <constructor-arg name="userName" value="oldwang"></constructor-arg>
+    </bean>
+    <!-- 第三种根据参数类型设置(不推荐使用) -->
+    <bean id="user2" class="com.oldwang.pojo.User" >
+        <constructor-arg type="java.lang.String" value="oldwang"></constructor-arg>
+    </bean>
+
+    <alias name="user" alias="newUser"></alias>
 </beans>

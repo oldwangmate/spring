@@ -2,6 +2,7 @@ package com.oldwang.ioc;
 
 import com.oldwang.dao.OracleUserDaoImpl;
 import com.oldwang.pojo.Hello;
+import com.oldwang.pojo.User;
 import com.oldwang.service.UserService;
 import com.oldwang.service.UserServiceImpl;
 import org.junit.Test;
@@ -31,5 +32,12 @@ public class HelloSpringTest {
 //        UserService user = new UserServiceImpl();
 //        ((UserServiceImpl) user).setUserDao(new OracleUserDaoImpl());
 //        user.getUser();
+    }
+    @Test
+    public void test(){
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("bean.xml");
+        User user = (User) applicationContext.getBean("newUser");
+        user.show();
+
     }
 }
