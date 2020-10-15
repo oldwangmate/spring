@@ -1,9 +1,7 @@
 package com.oldwang.ioc;
 
-import com.oldwang.dao.OracleUserDaoImpl;
 import com.oldwang.pojo.Hello;
 import com.oldwang.pojo.User;
-import com.oldwang.service.UserService;
 import com.oldwang.service.UserServiceImpl;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

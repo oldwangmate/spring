@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="com.oldwang.pojo.Address">
+        <property name="address" value="西安"></property>
+    </bean>
+
+    <bean id="student" class="com.oldwang.pojo.Student">
+        <property name="name" value="oldwang"></property>
+        <property name="address" ref="address"></property>
+        <property name="books" >
+            <array>
+                <value>oldwang</value>
+                <value>oldli</value>
+            </array>
+        </property>
+        <property name="card">
+            <map>
+                <entry key="oldwang" value="特别厉害"></entry>
+                <entry key="oldli" value="特别厉害"></entry>
+            </map>
+        </property>
+        <property name="games">
+            <set>
+                <value>LOL</value>
+                <value>BOB</value>
+                <value>COC</value>
+            </set>
+        </property>
+        <property name="hobbys">
+            <list>
+                <value>听歌</value>
+                <value>看电影</value>
+                <value>爬山</value>
+            </list>
+        </property>
+        <property name="info">
+            <props>
+                <prop key="学号">20190604</prop>
+                <prop key="性别">男</prop>
+                <prop key="姓名">小明</prop>
+            </props>
+        </property>
+        <property name="wife"><null/></property>
+    </bean>
+
+    <bean id="userP" class="com.oldwang.pojo.User"  p:name="oldwang" p:age="18"></bean>
+
+    <bean id="userC" class="com.oldwang.pojo.User"  c:name="oldwang" c:age="18"></bean>
+</beans>
