@@ -6,7 +6,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="address" class="com.oldwang.pojo.Address">
+    <bean id="address" class="com.oldwang.pojo.Address" scope="singleton">
         <property name="address" value="西安"></property>
     </bean>
 
