@@ -2,21 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825fdf8d-fc74-4a06-a043-b460a9a06bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-di/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-di/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-di/src/test/java/com/oldwang/SetInjectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/ProxyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo1/HostMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo1/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo1/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/UserServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo3/ProxyInvocationHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/ioc/HelloSpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/ioc/HelloSpringTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-ioc/target/" />
     <ignored path="$PROJECT_DIR$/spring-di/target/" />
+    <ignored path="$PROJECT_DIR$/spring-annotation/target/" />
+    <ignored path="$PROJECT_DIR$/spring-aop/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,69 +37,93 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/Address.java">
+        <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo1/Rent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="60">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo1/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
-                <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/Student.java">
+        <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Host.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="60">
+              <caret line="2" selection-start-line="2" selection-end-line="8" />
+              <folding>
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Rent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" selection-start-line="2" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/ProxyInvocationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1073#1074#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1279#1280#0" expanded="true" />
-                <element signature="e#1316#1317#0" expanded="true" />
-                <element signature="e#1348#1349#0" expanded="true" />
-                <element signature="e#1378#1379#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
-                <element signature="e#1454#1455#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1520#1521#0" expanded="true" />
-                <element signature="e#1565#1566#0" expanded="true" />
-                <element signature="e#1600#1601#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-di/src/test/java/com/oldwang/SetInjectionTest.java">
+        <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo3/ProxyInvocationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="161">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo3/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,29 +132,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/User.java">
+        <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="90">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding>
-                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-di/src/main/resources/applicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="51" column="19" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="19" />
+            <state relative-caret-position="270">
+              <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -141,7 +185,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/pojo/Hello.java" />
         <option value="$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/dao/UserDao.java" />
@@ -158,8 +201,38 @@
         <option value="$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/Student.java" />
         <option value="$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/Address.java" />
         <option value="$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/User.java" />
-        <option value="$PROJECT_DIR$/spring-di/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/spring-di/src/test/java/com/oldwang/SetInjectionTest.java" />
+        <option value="$PROJECT_DIR$/spring-di/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/spring-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/pojo/Cat.java" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/pojo/Dog.java" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/pojo/People.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/pojo/User.java" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/service/UserService.java" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/main/resources/bean.xml" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/config/OldwangConfig2.java" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/config/OldwangConfig.java" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/test/java/com/oldwang/SpringTest.java" />
+        <option value="$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/pojo/Oldwang.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/Host.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/HostMaster.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/Proxy.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/Client.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/UserService.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/UserServiceProxy.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/Client.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Rent.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo1/Rent.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Host.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/ProxyInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Client.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo3/Client.java" />
+        <option value="$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo3/ProxyInvocationHandler.java" />
       </list>
     </option>
   </component>
@@ -170,6 +243,22 @@
         <option name="userSettingsFile" value="D:\soft\maven\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-ioc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-ioc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
@@ -192,73 +281,82 @@
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-di" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-aop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-di" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-di" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-di" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-di" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-di" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="oldwang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-di" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="oldwang" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-di" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oldwang" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-di" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-aop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oldwang" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="oldwang" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,7 +369,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602773436350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603118557936" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -280,6 +378,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.oldwang.agent.demo3" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\IdeaProjects\spring\spring-ioc\src\main\resources" />
     </key>
@@ -296,72 +397,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SetInjectionTest.test">
-    <configuration name="HelloSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc" />
+  <component name="RunManager" selected="Application.Client (3)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oldwang.agent.demo2.Client" />
+      <module name="spring-aop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oldwang.ioc.*" />
+          <option name="PATTERN" value="com.oldwang.agent.demo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.oldwang.ioc" />
-      <option name="MAIN_CLASS_NAME" value="com.oldwang.ioc.HelloSpringTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloSpringTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oldwang.agent.DynamicProxy.Client" />
+      <module name="spring-aop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oldwang.ioc.*" />
+          <option name="PATTERN" value="com.oldwang.agent.DynamicProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.oldwang.ioc" />
-      <option name="MAIN_CLASS_NAME" value="com.oldwang.ioc.HelloSpringTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloSpringTest.testHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc" />
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oldwang.agent.demo3.Client" />
+      <module name="spring-aop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oldwang.ioc.*" />
+          <option name="PATTERN" value="com.oldwang.agent.demo3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.oldwang.ioc" />
-      <option name="MAIN_CLASS_NAME" value="com.oldwang.ioc.HelloSpringTest" />
-      <option name="METHOD_NAME" value="testHello" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloSpringTest.testHellp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oldwang.agent.demo1.Client" />
+      <module name="spring-aop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oldwang.ioc.*" />
+          <option name="PATTERN" value="com.oldwang.agent.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.oldwang.ioc" />
-      <option name="MAIN_CLASS_NAME" value="com.oldwang.ioc.HelloSpringTest" />
-      <option name="METHOD_NAME" value="testHellp" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetInjectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-di" />
+    <configuration name="SpringTest.testConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-annotation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.oldwang.*" />
@@ -369,8 +459,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.oldwang" />
-      <option name="MAIN_CLASS_NAME" value="com.oldwang.SetInjectionTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.oldwang.SpringTest" />
+      <option name="METHOD_NAME" value="testConfig" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -378,11 +468,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SetInjectionTest.test" />
-        <item itemvalue="JUnit.HelloSpringTest.test" />
-        <item itemvalue="JUnit.HelloSpringTest.testHello" />
-        <item itemvalue="JUnit.HelloSpringTest.testHellp" />
-        <item itemvalue="JUnit.HelloSpringTest" />
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="JUnit.SpringTest.testConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +488,10 @@
       <updated>1602417774813</updated>
       <workItem from="1602417779506" duration="441000" />
       <workItem from="1602681056868" duration="6235000" />
-      <workItem from="1602769479300" duration="3952000" />
+      <workItem from="1602769479300" duration="4784000" />
+      <workItem from="1602995325833" duration="1103000" />
+      <workItem from="1603019133734" duration="6723000" />
+      <workItem from="1603113189956" duration="5186000" />
     </task>
     <task id="LOCAL-00001" summary="spring quickStart">
       <created>1602688288350</created>
@@ -414,48 +507,70 @@
       <option name="project" value="LOCAL" />
       <updated>1602771055799</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="依赖注入之Set">
+      <created>1602773454016</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602773454016</updated>
+    </task>
+    <task id="LOCAL-00004" summary="依赖注入之Set">
+      <created>1602773473280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602773473280</updated>
+    </task>
+    <task id="LOCAL-00005" summary="spring 注解">
+      <created>1603025543335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603025543335</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloSpringTest_test - 2020.10.15 at 21h 53m 57s.xml">
-      <configuration name="HelloSpringTest.test" configurationId="JUnit" />
+    <history-entry file="SpringTest_test - 2020.10.18 at 19h 56m 00s.xml">
+      <configuration name="SpringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloSpringTest_test - 2020.10.15 at 22h 03m 08s.xml">
-      <configuration name="HelloSpringTest.test" configurationId="JUnit" />
+    <history-entry file="SpringTest_test - 2020.10.18 at 20h 03m 42s.xml">
+      <configuration name="SpringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SetInjectionTest_test - 2020.10.15 at 22h 22m 54s.xml">
-      <configuration name="SetInjectionTest.test" configurationId="JUnit" />
+    <history-entry file="SpringTest_test - 2020.10.18 at 20h 23m 03s.xml">
+      <configuration name="SpringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SetInjectionTest_test - 2020.10.15 at 22h 23m 34s.xml">
-      <configuration name="SetInjectionTest.test" configurationId="JUnit" />
+    <history-entry file="SpringTest_testUser - 2020.10.18 at 20h 24m 01s.xml">
+      <configuration name="SpringTest.testUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SetInjectionTest_test - 2020.10.15 at 22h 25m 39s.xml">
-      <configuration name="SetInjectionTest.test" configurationId="JUnit" />
+    <history-entry file="SpringTest_testUser - 2020.10.18 at 20h 25m 20s.xml">
+      <configuration name="SpringTest.testUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SetInjectionTest_test - 2020.10.15 at 22h 27m 23s.xml">
-      <configuration name="SetInjectionTest.test" configurationId="JUnit" />
+    <history-entry file="SpringTest_testConfig - 2020.10.18 at 20h 42m 43s.xml">
+      <configuration name="SpringTest.testConfig" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SetInjectionTest_test - 2020.10.15 at 22h 32m 14s.xml">
-      <configuration name="SetInjectionTest.test" configurationId="JUnit" />
+    <history-entry file="SpringTest_testConfig - 2020.10.18 at 20h 44m 13s.xml">
+      <configuration name="SpringTest.testConfig" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SetInjectionTest_test - 2020.10.15 at 22h 32m 50s.xml">
-      <configuration name="SetInjectionTest.test" configurationId="JUnit" />
+    <history-entry file="SpringTest_testConfig - 2020.10.18 at 20h 48m 36s.xml">
+      <configuration name="SpringTest.testConfig" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SetInjectionTest_test - 2020.10.15 at 22h 33m 30s.xml">
-      <configuration name="SetInjectionTest.test" configurationId="JUnit" />
+    <history-entry file="SpringTest_testConfig - 2020.10.18 at 20h 49m 06s.xml">
+      <configuration name="SpringTest.testConfig" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SetInjectionTest_test - 2020.10.15 at 22h 43m 53s.xml">
-      <configuration name="SetInjectionTest.test" configurationId="JUnit" />
+    <history-entry file="SpringTest_testConfig - 2020.10.18 at 20h 50m 39s.xml">
+      <configuration name="SpringTest.testConfig" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10628000" />
+    <option name="totallyTimeSpent" value="24472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22907725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2387339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -464,7 +579,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" visible="true" weight="0.29232505" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" visible="true" weight="0.28216705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,7 +596,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3299356" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -493,7 +608,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring quickStart" />
     <MESSAGE value="IOC创建方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="IOC创建方式" />
+    <MESSAGE value="依赖注入之Set" />
+    <MESSAGE value="spring 注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring 注解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -508,190 +625,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/dao/UserDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/test/java/com/oldwang/service/UserServiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/dao/OracleUserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/dao/MysqlUserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/resources/beans.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-ioc/src/main/java/com/oldwang/pojo/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="84" column="49" selection-start-line="84" selection-start-column="49" selection-end-line="84" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="604" column="28" selection-start-line="604" selection-start-column="28" selection-end-line="604" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactoryUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE.jar!/org/springframework/core/SimpleAliasRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="171" selection-start-line="171" selection-end-line="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE.jar!/org/springframework/core/env/PropertyResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE-sources.jar!/org/springframework/core/env/PropertyResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="113" column="11" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE-sources.jar!/org/springframework/core/env/AbstractPropertyResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="206" column="40" lean-forward="true" selection-start-line="206" selection-start-column="40" selection-end-line="206" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#2108#2109#0" expanded="true" />
-            <element signature="e#4481#4482#0" expanded="true" />
-            <element signature="e#4545#4546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#2364#2365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/soft/Java/jdk/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="564" selection-start-line="564" selection-end-line="564" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -792,9 +729,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="210">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -834,49 +784,351 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-di/src/main/java/com/oldwang/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-di/src/test/java/com/oldwang/SetInjectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-di/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="19" />
+        <state relative-caret-position="390">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-di/src/test/java/com/oldwang/SetInjectionTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-annotation/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="510">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/pojo/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="8" />
+          <folding>
+            <element signature="e#74#75#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/pojo/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#73#74#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/pojo/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/annotation/Scope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.0.RELEASE/spring-web-5.2.0.RELEASE.jar!/org/springframework/web/context/support/AnnotationConfigWebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.0.RELEASE/spring-beans-5.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="155" column="10" selection-start-line="155" selection-start-column="10" selection-end-line="155" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/config/OldwangConfig2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/config/OldwangConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/main/java/com/oldwang/pojo/Oldwang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-annotation/src/test/java/com/oldwang/SpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/UserServiceProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo1/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo1/HostMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo1/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo1/Rent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo2/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Rent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Host.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="8" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/ProxyInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/DynamicProxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo3/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/com/oldwang/agent/demo3/ProxyInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
           </folding>
         </state>
       </provider>

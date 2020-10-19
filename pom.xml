@@ -11,6 +11,8 @@
     <modules>
         <module>spring-ioc</module>
         <module>spring-di</module>
+        <module>spring-annotation</module>
+        <module>spring-aop</module>
     </modules>
 
 
@@ -25,6 +27,13 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
+            <version>5.2.0.RELEASE</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
             <version>5.2.0.RELEASE</version>
         </dependency>
 
