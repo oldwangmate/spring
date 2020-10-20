@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop = "http://www.springframework.org/schema/aop"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
+
+    <!-- bean definition & AOP specific configuration -->
+    <bean id="userService" class="com.oldwang.aop.service.UserServiceImpl"></bean>
+    <bean id="log" class="com.oldwang.aop.log.SysLog"></bean>
+    <bean id="after" class="com.oldwang.aop.log.AfterLog"></bean>
+
+    <!--方式一，使用原生的spring API接口-->
+    <!--注册aop-->
+    <!--配置aop需要导入aop的约束-->
+    <!--<aop:config>-->
+        <!--&lt;!&ndash;aop的切入点:expression表达式,execution:要执行的位置&ndash;&gt;-->
+        <!--<aop:pointcut id="pointcut" expression="execution(* com.oldwang.aop.service.UserServiceImpl.*(..))"></aop:pointcut>-->
+        <!--&lt;!&ndash;执行环绕增强&ndash;&gt;-->
+        <!--<aop:advisor advice-ref="log" pointcut-ref="pointcut"></aop:advisor>-->
+        <!--<aop:advisor advice-ref="after" pointcut-ref="pointcut"></aop:advisor>-->
+    <!--</aop:config>-->
+
+    <!--方式二,自定义切面-->
+    <!--<bean id="diy" class="com.oldwang.aop.diy.DIYPoint"></bean>-->
+    <!--<aop:config>-->
+        <!--&lt;!&ndash;自定义切面，ref:要引用的类&ndash;&gt;-->
+        <!--<aop:aspect ref="diy">-->
+            <!--<aop:pointcut id="point" expression="execution(* com.oldwang.aop.service.UserServiceImpl.*(..))"></aop:pointcut>-->
+            <!--&lt;!&ndash;通知&ndash;&gt;-->
+            <!--<aop:before method="before" pointcut-ref="point"></aop:before>-->
+            <!--<aop:after method="after" pointcut-ref="point"></aop:after>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+    <!--方式三，使用注解实现-->
+    <bean id="diyAnnotation" class="com.oldwang.aop.annotation_aop.DiyAnnotation"></bean>
+
+    <!-- 开启自动代理
+		实现方式：默认JDK (proxy-targer-class="fasle")
+    			 cgbin (proxy-targer-class="true")
+    -->
+    <aop:aspectj-autoproxy/>
+</beans>
