@@ -4,6 +4,6 @@ import com.oldwang.pojo.User;
 
 import java.util.List;
 
-public interface UserDao {
-    List<User> getUser();
+public interface UserMapper {
+     List<User> getUserList();
 }

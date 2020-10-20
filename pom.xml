@@ -13,6 +13,7 @@
         <module>spring-di</module>
         <module>spring-annotation</module>
         <module>spring-aop</module>
+        <module>mybatis-spring</module>
     </modules>
 
 
