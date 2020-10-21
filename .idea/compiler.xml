@@ -11,6 +11,7 @@
         <module name="spring-aop" />
         <module name="spring-di" />
         <module name="spring-ioc" />
+        <module name="spring-transactional" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
